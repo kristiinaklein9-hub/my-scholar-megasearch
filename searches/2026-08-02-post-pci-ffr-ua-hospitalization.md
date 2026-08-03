@@ -123,7 +123,46 @@
 
 ---
 
-## 5. 检索策略记录（可复现）
+## 5. 追加检索：血管水平术后功能学暴露 × POCE（2026-08-03）
+
+**提问**：有没有以**靶血管（而非全局）**术后功能学指标为暴露、以 **POCE（全因死亡 + 任何 MI + 任何缺血驱动血运重建 + 因心绞痛再住院 + 因心衰住院）** 为主要终点的文献？
+
+### 5.1 结论
+
+**没有完全匹配的研究。** 但存在 4 篇"血管水平术后功能学指标 + 含再住院成分的复合终点"的研究，是最接近的先例；**其中没有任何一篇同时纳入心绞痛再住院与心衰住院**。
+
+同时要注意一个术语区分：ARC 标准 POCE = 全因死亡 + 任何 MI + 任何血运重建（**不含**再住院成分）。你的定义是在标准 POCE 上外加两项再住院，属**扩展版 POCE**。
+
+### 5.2 最接近的 4 篇（按接近程度排序）
+
+| # | 研究 | 暴露（血管水平？术后？） | 主要复合终点 | 差距 |
+|---|---|---|---|---|
+| A1 | **Oikonomou D, et al.** *Prognostic role of post-percutaneous coronary intervention quantitative flow ratio.* Eur Heart J. 2024（**ESC 会议摘要**，[Consensus 链接](https://consensus.app/papers/details/0d94186a499557508ff374d24192de07/?utm_source=claude_desktop)） | 术后 QFR，**逐支血管**计算，截点 0.8；患者层面按"**至少一支血管 post-PCI QFR ≤0.8**"归入低值组。n=297，中位随访 29 月 | **死亡 + 心肌梗死 + 缺血驱动血运重建 + 心衰相关住院**（患者导向）；校正后 HR 2.22（1.01–4.88） | **唯一一篇"血管水平术后功能学 → 患者导向 4 成分复合终点"**。只差"因心绞痛再住院"。仅摘要，未见全文；n 小、CI 贴近 1 |
+| A2 | **Chen G, et al.** *A simple angio-based coronary flow assessment of culprit vessels in primary PCI is associated with long-term prognosis after STEMI.* Int J Cardiol. 2024;409:132199. PMID 38782068. [DOI](https://doi.org/10.1016/j.ijcard.2024.132199) | 直接 PCI 后**罪犯血管** μQFR（单体位造影），中位 0.94；n=570 STEMI，中国 4 中心前瞻 | MACE = 心源性死亡 + 非致死 MI + 缺血驱动靶血管血运重建 + **心衰再入院**；低 μQFR HR 2.51（1.33–4.72） | 血管水平、术后、含心衰住院 ✓；缺心绞痛再住院；死亡为心源性；血运重建限靶血管 |
+| A3 | **Zhang Y, et al.** *Prognostic Value of Coronary Angiography-Derived Index of Microcirculatory Resistance in NSTEMI Patients.* JACC Cardiovasc Interv. 2024;17(16):1874-1886. PMID 39115479. [DOI](https://doi.org/10.1016/j.jcin.2024.04.048) | **罪犯血管**术后 angio-IMR（截点 25）；n=2212 NSTEMI，3 中心 | 2 年 MACE = 心源性死亡 + **心衰再入院** + 再梗 + 靶血管血运重建；angio-IMR>25 HR 4.23（3.15–5.68） | 样本量最大、方法学最规范的同型研究；但暴露是**微循环阻力**而非 FFR/QFR；缺心绞痛再住院 |
+| A4 | **Xia Q, et al.** *OCT-Derived Virtual FFR Associated With 1-Year Outcomes After PCI in ACS Patients.* Catheter Cardiovasc Interv. 2026;107(5):1324-1332. PMID 41554676. [DOI](https://doi.org/10.1002/ccd.70458) | 术后 **OFR**（血管水平），n=719 ACS | 1 年**靶血管相关** MACE = 心源性死亡 + 血运重建 + MI + **心绞痛再住院** | 唯一含心绞痛再住院的血管水平术后功能学研究 ✓；但为靶血管导向（非患者导向）、缺心衰住院 |
+
+### 5.3 用了"POCE"这个词、但不满足条件的研究
+
+这三篇会在检索中反复出现，需要在讨论中明确区分，避免被审稿人认为已有前作：
+
+| 研究 | 为什么不算 |
+|---|---|
+| Asano T, et al. *Angiography-Derived FFR in the SYNTAX II Trial…functional SYNTAX score derived from QFR.* JACC Cardiovasc Interv. 2019;12(3):259-270. PMID 30409759. [DOI](https://doi.org/10.1016/j.jcin.2018.09.023) | 以 2 年 POCE 为结局 ✓，但暴露是**术前** QFR 衍生的**全局**功能性 SYNTAX 评分——正是你要排除的全局指标 |
+| Hara H, et al. *Multivessel TALENT trial: rationale and design.* EuroIntervention. 2020;16(12):e997-e1004. PMID 32928717. [DOI](https://doi.org/10.4244/EIJ-D-20-00772) | 主要终点是 POCE（全因死亡 + 任何卒中 + 任何 MI + 任何血运重建）✓，但 QFR 用于**术前**病变筛选，是随机化策略而非暴露；POCE 用于比较两种支架 |
+| Gao R, et al. *IRONMAN-II randomized trial.* J Am Coll Cardiol. 2026;87(16):2117-2130. PMID 41670556. [DOI](https://doi.org/10.1016/j.jacc.2025.12.024) | 术后靶血管 QFR 与 POCE 都出现，但二者是**并列的次要终点**，不构成暴露—结局关系 |
+
+另可参考同类"术后生理学 → 患者水平结局"的对照：Choi KH, et al. *Differential Impact of FFR Measured After Coronary Stent Implantation by Left Ventricular Dysfunction* (POST-PCI FLOW registry, n=2965)，[Consensus 链接](https://consensus.app/papers/details/d90c106bb406541fb39dbcc2cbe22df8/?utm_source=claude_desktop)——血管水平术后 FFR，但结局仍是 TVF/心源性死亡或 TVMI。
+
+### 5.4 由此产生的两条方法学要求
+
+1. **必须预先规定"血管水平暴露 → 患者水平终点"的聚合规则。** 这是本设计的结构性弱点，审稿人必问。可直接援引 Oikonomou 的做法作为先例：**患者只要有一支靶血管术后 FFR ≤ 截点，即归入低值组**。备选方案是取患者所有靶血管的最低术后 FFR，或按血管数加权。无论选哪个，都要在方案中写死并做另一种规则的敏感性分析。
+
+2. **"任何缺血驱动血运重建"与"因心绞痛再住院"存在重叠计数风险。** 因心绞痛住院后接受血运重建的患者会同时触发两个成分；复合终点按首次事件计时可以处理，但必须在终点定义中写明层级顺序（通常：死亡 > MI > 血运重建 > 再住院），否则各成分的事件数无法与总数对上。A2/A3 两篇把血运重建限定为靶血管、把再住院限定为心衰，恰好回避了这个重叠——你的定义回避不了。
+
+---
+
+## 6. 检索策略记录（可复现）
 
 PubMed 主要检索式（2026-08-02）：
 
@@ -143,3 +182,15 @@ post-PCI FFR AND (target vessel failure OR patient-oriented composite endpoint) 
 另以 PubMed `find_related_articles`（word-weighted similarity）对 PMID 41554676、39636846 做同类文献扩展；Consensus 与 Scholar Gateway 用于补充会议摘要与 Wiley 全文库命中。
 
 文献元数据均来自 PubMed。
+
+追加检索（2026-08-03，血管水平暴露 × POCE）：
+
+```
+"patient-oriented composite endpoint" AND (fractional flow reserve OR quantitative flow ratio OR post-PCI physiology)  → 8 条
+"patient-oriented composite" AND (heart failure hospitalization OR rehospitalization for angina)   → 29 条
+"patient-oriented composite endpoint" AND "unstable angina" AND "heart failure"                    → 0 条
+post-PCI quantitative flow ratio composite death myocardial infarction ischemia-driven revascularization heart failure hospitalization  → 1 条
+angiography-derived index of microcirculatory resistance NSTEMI post-PCI culprit vessel readmission heart failure  → 1 条
+```
+
+Consensus 语义检索补充：`post-PCI target vessel QFR/FFR + patient-oriented composite endpoint including rehospitalization for angina and heart failure`（命中 Oikonomou ESC 2024 摘要、Griffioen 2022 meta、Dai 2022 JAHA、Choi 2023 POST-PCI FLOW）。
